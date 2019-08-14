@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.automate.api</groupId>
+  <artifactId>apiExamples</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>apiExamples</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.0.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Used to parse json document -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<!-- to validate that the json response confirms to a json schema -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<!-- use to parse xml documents -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>xml-path</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<!-- test library testng/ junit -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Used for writing match rules, assertions etc -->
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>java-hamcrest</artifactId>
+			<version>2.0.0.0</version>
+			<scope>test</scope>
+		</dependency>
+  </dependencies>
+</project>

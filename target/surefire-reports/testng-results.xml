@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.automate.api.apiTest" duration-ms="3926" started-at="2019-08-09T06:43:14Z" finished-at="2019-08-09T06:43:18Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3926" started-at="2019-08-09T06:43:14Z" finished-at="2019-08-09T06:43:18Z">
+      <class name="com.automate.api.apiTest">
+        <test-method status="PASS" signature="testContentType()[pri:0, instance:com.automate.api.apiTest@aa5eb0]" name="testContentType" duration-ms="3909" started-at="2019-08-09T06:43:14Z" finished-at="2019-08-09T06:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContentType -->
+        <test-method status="PASS" signature="testSchema()[pri:0, instance:com.automate.api.apiTest@aa5eb0]" name="testSchema" duration-ms="0" started-at="2019-08-09T06:43:18Z" finished-at="2019-08-09T06:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSchema -->
+      </class> <!-- com.automate.api.apiTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.automate.api.apiTest -->
+</testng-results>
