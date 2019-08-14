@@ -4,11 +4,8 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.List;
-
 import static io.restassured.path.json.JsonPath.*;
-
 import org.testng.annotations.Test;
-
 import io.restassured.path.json.JsonPath;
 
 public class testSomeGroovy 
@@ -101,7 +98,7 @@ public class testSomeGroovy
 		JsonPath jsonpath = new JsonPath(response).setRoot("albumId");
 		
 		List<String> ls1 = jsonpath.get("");
-		System.out.println(ls.size());
+		System.out.println(ls1.size());
 	}
 	
 	
